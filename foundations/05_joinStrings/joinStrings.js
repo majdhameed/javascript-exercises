@@ -10,7 +10,13 @@
 // Add your code right below, good luck!
 
 
+firstName = "Carlos"
+lastName = "Stevenson"
+thisYear = 1965
+birthYear = 1947
 
+greeting = `Hello! my name is ${firstName} ${lastName} and I am ${thisYear - birthYear} years old.`
+console.log(greeting);
 
 
 // Do not change this
