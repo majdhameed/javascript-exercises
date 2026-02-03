@@ -12,10 +12,11 @@
 
 firstName = "Carlos"
 lastName = "Stevenson"
+fullName = `${firstName} ${lastName}`
 thisYear = 1965
 birthYear = 1947
-
-greeting = `Hello! my name is ${firstName} ${lastName} and I am ${thisYear - birthYear} years old.`
+age = thisYear - birthYear
+greeting = `Hello! My name is ${firstName} ${lastName} and I am ${thisYear - birthYear} years old.`
 console.log(greeting);
 
 
